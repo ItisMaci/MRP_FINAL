@@ -20,24 +20,7 @@ Die Anwendung wurde als eigenständiger RESTful HTTP Server in C# entwickelt, oh
 
 ## 3. Entwicklungsverlauf
 
-### Phase 1: Infrastruktur & Basis (Zwischenabgabe)
-Der erste Schritt bestand in der Bereitstellung einer stabilen Datenbasis und des Server-Grundgerüsts.
-*   **Modellierung:** Erstellung des ER-Diagramms für User, Media und Ratings.
-*   **Docker:** Setup von PostgreSQL und pgAdmin auf Port 5432.
-*   **HttpServer:** Implementierung der Event-Loop, die `HttpListenerContext` in `HttpRestEventArgs` umwandelt.
-*   **User System:** Implementierung von `UserHandler` und `SessionHandler` für Login/Register (Token-based Auth).
-
-### Phase 2: Erweiterte Geschäftslogik (Finalisierung)
-Nach der Zwischenabgabe wurde der Fokus auf komplexe Business-Logik und Datenintegrität gelegt.
-*   **Rating-System:** Implementierung von `RatingHandler`. Eine wichtige Logik-Erweiterung war die **Unique Constraint Prüfung**: Ein User darf ein Medium nur einmal bewerten. Dies wird nun vor dem Insert geprüft.
-*   **Moderations-Feature:** Kommentare zu Bewertungen werden standardmäßig als "unconfirmed" (`is_confirmed = false`) in der Datenbank gespeichert. Die API (`GetRatings`) filtert diese Texte aus, solange sie nicht bestätigt sind.
-*   **Favorites & Likes:** Implementierung der Many-to-Many Beziehungen für Favoriten und Likes auf Ratings.
-
-### Phase 3: Qualitätssicherung & Refactoring
-Um die Anforderungen an Unit-Tests zu erfüllen, musste die Architektur angepasst werden.
-*   **Problem:** Die Repositories waren eng mit der statischen `DatabaseConnection` gekoppelt.
-*   **Lösung:** Einführung von Mock-Repositories (`MockRatingRepository`). Dies ermöglichte das Schreiben von **20 Unit Tests**, die Geschäftslogik (z.B. Score-Range 1-5, Passwort-Hashing) validieren, ohne eine laufende Datenbank zu benötigen.
-*   **Bugfixing:** Behebung von Namespace-Konflikten und Anpassung der SQL-Queries an die exakten Spaltennamen (`user_id` vs `userid`).
+Der Entwicklungsprozess begann mit einem umfassenden Refactoring der Kernmodelle Media.cs, Ratings.cs, Session.cs und User.cs, um das Repository Pattern einzuführen und die Architektur zu modularisieren. In diesem Zuge wurde die Atom-Komponente vollständig entfernt, da ihre statische Struktur nicht mit den SOLID-Prinzipien, insbesondere der Testbarkeit und Erweiterbarkeit, vereinbar war. Im Anschluss erfolgte die Implementierung der eigentlichen Geschäftslogik auf der Basis dieser neuen Struktur. Die Qualitätssicherung wurde dabei iterativ gestaltet: Für jedes Systemmodell (wie z. B. Media) wurden Integrationstests durchgeführt und bestanden, bevor die Entwicklung des nächsten Moduls begann. Es wurde jedoch kein Test-Driven-Development (TDD) angewandt; die Tests wurden jeweils erst nach Abschluss der funktionalen Implementierung geschrieben, um die Korrektheit der Komponenten sicherzustellen.
 
 ## 4. Angewandte SOLID Prinzipien
 1.  **Single Responsibility Principle (SRP):**
