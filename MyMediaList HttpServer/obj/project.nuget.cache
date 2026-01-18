@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xinKVcjFatA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\MyMediaList HttpServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\macsc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\macsc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\macsc\\.nuget\\packages\\npgsql\\10.0.1\\npgsql.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

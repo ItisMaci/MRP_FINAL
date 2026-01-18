@@ -1,0 +1,17 @@
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaList HttpServer.csproj.AssemblyReference.cache
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaList HttpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaList HttpServer.csproj.CoreCompileInputs.cache
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\MyMediaList HttpServer.exe
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\MyMediaList HttpServer.deps.json
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\MyMediaList HttpServer.runtimeconfig.json
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\MyMediaList HttpServer.dll
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\MyMediaList HttpServer.pdb
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\bin\Debug\net10.0\Npgsql.dll
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaL.B13625BB.Up2Date
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaList HttpServer.dll
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\refint\MyMediaList HttpServer.dll
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaList HttpServer.pdb
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\MyMediaList HttpServer.genruntimeconfig.cache
+C:\Users\macsc\Desktop\C#\MyMediaList HttpServer\MyMediaList HttpServer\obj\Debug\net10.0\ref\MyMediaList HttpServer.dll

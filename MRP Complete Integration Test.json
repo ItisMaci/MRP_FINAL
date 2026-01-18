@@ -1,0 +1,363 @@
+{
+	"info": {
+		"name": "MRP Complete Integration Test",
+		"description": "Extensive test of endpoints. Port 8080.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "0. Create Admin (Safe Init)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"admin\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/users"
+			}
+		},
+		{
+			"name": "1. Admin Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.expect(jsonData.success).to.eql(true);",
+							"pm.environment.set(\"admin_token\", jsonData.token);",
+							"console.log(\"Admin Token Set\");"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"admin\",\n    \"password\": \"admin\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/api/login"
+			}
+		},
+		{
+			"name": "2. Admin Create Genre",
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{admin_token}}" } ],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sci-Fi\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/genres"
+			}
+		},
+		{
+			"name": "4. Register New User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"tester01\",\n    \"password\": \"password123\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/users"
+			}
+		},
+		{
+			"name": "5. Login New User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.expect(jsonData.success).to.eql(true);",
+							"pm.environment.set(\"user_token\", jsonData.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"tester01\",\n    \"password\": \"password123\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/api/login"
+			}
+		},
+		{
+			"name": "6. User Create Media (Movie)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.id) { pm.environment.set(\"media_id_1\", jsonData.id); }",
+							"else if (jsonData.media_id) { pm.environment.set(\"media_id_1\", jsonData.media_id); }"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Cyberpunk Edge Runners\",\n    \"description\": \"Futuristic anime style movie\",\n    \"type\": \"Movie\",\n    \"release_year\": 2022,\n    \"age_restriction\": 16\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/media"
+			}
+		},
+		{
+			"name": "7. User Add Genre to Media",
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sci-Fi\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/media/{{media_id_1}}/genres"
+			}
+		},
+		{
+			"name": "8. User Rate Media",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.id) { pm.environment.set(\"rating_id\", jsonData.id); }"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"media_id\": {{media_id_1}},\n    \"score\": 5,\n    \"comment\": \"Visually stunning!\"\n}",
+					"options": { "raw": { "language": "json" } }
+				},
+				"url": "http://localhost:8080/ratings"
+			}
+		},
+		{
+			"name": "9. Verify Hidden Comment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.ratings && jsonData.ratings.length > 0) {",
+							"    var myRating = jsonData.ratings.find(r => r.id == pm.environment.get(\"rating_id\"));",
+							"    if (myRating) {",
+							"        pm.expect(myRating.comment).to.eql(\"\");",
+							"    }",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/media/{{media_id_1}}"
+			}
+		},
+		{
+			"name": "10. User Confirm Comment",
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"url": "http://localhost:8080/ratings/{{rating_id}}/confirm"
+			}
+		},
+		{
+			"name": "11. Verify Visible Comment",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.ratings && jsonData.ratings.length > 0) {",
+							"    var myRating = jsonData.ratings.find(r => r.id == pm.environment.get(\"rating_id\"));",
+							"    if (myRating) {",
+							"        pm.expect(myRating.comment).to.eql(\"Visually stunning!\");",
+							"    }",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/media/{{media_id_1}}"
+			}
+		},
+		{
+			"name": "12a. User Like Own Rating",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.expect(jsonData.is_liked).to.eql(true);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"url": "http://localhost:8080/ratings/{{rating_id}}/like"
+			}
+		},
+		{
+			"name": "12b. Admin Like Rating (User 2)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.expect(jsonData.is_liked).to.eql(true);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{admin_token}}" } ],
+				"url": "http://localhost:8080/ratings/{{rating_id}}/like"
+			}
+		},
+		{
+			"name": "12c. Verify 2 Likes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.ratings && jsonData.ratings.length > 0) {",
+							"    var myRating = jsonData.ratings.find(r => r.id == pm.environment.get(\"rating_id\"));",
+							"    if (myRating) {",
+							"        console.log(\"Likes count: \" + myRating.likes);",
+							"        pm.expect(myRating.likes).to.eql(2);",
+							"    }",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/media/{{media_id_1}}"
+			}
+		},
+		{
+			"name": "13. Toggle Favorite",
+			"request": {
+				"method": "POST",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"url": "http://localhost:8080/media/{{media_id_1}}/favorite"
+			}
+		},
+		{
+			"name": "14. Get User Favorites",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.favorites && jsonData.favorites.length > 0) {",
+							"    pm.expect(jsonData.favorites[0].id).to.eql(pm.environment.get(\"media_id_1\"));",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"url": "http://localhost:8080/users/tester01/favorites"
+			}
+		},
+		{
+			"name": "15. Filter Media by Genre",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.expect(jsonData.data.length).to.be.above(0);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/media?genre=Sci-Fi"
+			}
+		},
+		{
+			"name": "16. Admin Check Leaderboard",
+			"request": {
+				"method": "GET",
+				"header": [ { "key": "Authorization", "value": "Bearer {{admin_token}}" } ],
+				"url": "http://localhost:8080/users/leaderboard"
+			}
+		},
+		{
+			"name": "17. Cleanup: Delete Media",
+			"request": {
+				"method": "DELETE",
+				"header": [ { "key": "Authorization", "value": "Bearer {{user_token}}" } ],
+				"url": "http://localhost:8080/media/{{media_id_1}}"
+			}
+		},
+		{
+			"name": "18. Cleanup: Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [ { "key": "Authorization", "value": "Bearer {{admin_token}}" } ],
+				"url": "http://localhost:8080/users/tester01"
+			}
+		}
+	]
+}

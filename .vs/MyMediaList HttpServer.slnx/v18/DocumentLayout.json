@@ -1,0 +1,476 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\mediahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\mediahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\media\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\media\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\media\\imediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\media\\imediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\ratinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\ratinghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\rating\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\rating\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\rating\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\rating\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\rating\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\rating\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\session\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\session\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\session\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\database\\postgresconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\database\\postgresconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\database\\idatabaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\database\\idatabaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\user\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\user\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\media\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\media\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\genre\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\genre\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\genre\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\genre\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\system\\genre\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\system\\genre\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\server\\httprestserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\server\\httprestserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\server\\httpresteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\server\\httpresteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\versionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\versionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\sessionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\sessionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|c:\\users\\macsc\\desktop\\c#\\mymedialist httpserver\\mymedialist httpserver\\handlers\\genrehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BB4A85-6DBA-1077-5FC6-D6EC9C96D750}|MyMediaList HttpServer\\MyMediaList HttpServer.csproj|solutionrelative:mymedialist httpserver\\handlers\\genrehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDatabaseConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Database\\IDatabaseConnectionFactory.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Database\\IDatabaseConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Database\\IDatabaseConnectionFactory.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Database\\IDatabaseConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:42:24.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMediaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Media\\IMediaRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Media\\IMediaRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Media\\IMediaRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Media\\IMediaRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA8wBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:38:38.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Media.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Media\\Media.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Media\\Media.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Media\\Media.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Media\\Media.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:38:31.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MediaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Media\\MediaRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Media\\MediaRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Media\\MediaRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Media\\MediaRepository.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAqwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:38:46.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Rating\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Rating\\IRatingRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Rating\\IRatingRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Rating\\IRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:26:33.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Rating\\Rating.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Rating\\Rating.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Rating\\Rating.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Rating\\Rating.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:26:25.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Rating\\RatingRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Rating\\RatingRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Rating\\RatingRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Rating\\RatingRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA0wEkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:27:30.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Session\\Session.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Session\\Session.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Session\\Session.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Session\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:25:17.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Session\\SessionManager.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Session\\SessionManager.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Session\\SessionManager.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Session\\SessionManager.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAA0wIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:52:20.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\User\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\User\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\User\\IUserRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\User\\IUserRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:41:58.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Database\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Database\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Database\\DatabaseConnection.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Database\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:23:11.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\User\\User.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\User\\User.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\User\\User.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\User\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:41:36.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RatingHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\RatingHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\RatingHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\RatingHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\RatingHandler.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAowBoBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:29:21.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MediaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\MediaHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\MediaHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\MediaHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\MediaHandler.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAUwKIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:42:37.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PostgresConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Database\\PostgresConnectionFactory.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Database\\PostgresConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Database\\PostgresConnectionFactory.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Database\\PostgresConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-18T15:43:01.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Genre\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Genre\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Genre\\IGenreRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Genre\\IGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:14:18.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Genre\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Genre\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Genre\\GenreRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Genre\\GenreRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAywFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:14:23.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\User\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\User\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\User\\UserRepository.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\User\\UserRepository.cs",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAywCgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:42:22.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Program.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Program.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Program.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:00:43.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Genre\\Genre.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\System\\Genre\\Genre.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\System\\Genre\\Genre.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\System\\Genre\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:14:11.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HttpRestServer.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Server\\HttpRestServer.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Server\\HttpRestServer.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Server\\HttpRestServer.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Server\\HttpRestServer.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:10:48.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HttpRestEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Server\\HttpRestEventArgs.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Server\\HttpRestEventArgs.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Server\\HttpRestEventArgs.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Server\\HttpRestEventArgs.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAywH0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:13:51.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VersionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\VersionHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\VersionHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\VersionHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\VersionHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:44:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\UserHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\UserHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\UserHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\UserHandler.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAUwAYBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T12:56:09.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SessionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\SessionHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\SessionHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\SessionHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\SessionHandler.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAUwEgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:06:50.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\IHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\IHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\IHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\IHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:18:37.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Handler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\Handler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\Handler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\Handler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\Handler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:21:26.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GenreHandler.cs",
+              "DocumentMoniker": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\GenreHandler.cs",
+              "RelativeDocumentMoniker": "MyMediaList HttpServer\\Handlers\\GenreHandler.cs",
+              "ToolTip": "C:\\Users\\macsc\\Desktop\\C#\\MyMediaList HttpServer\\MyMediaList HttpServer\\Handlers\\GenreHandler.cs",
+              "RelativeToolTip": "MyMediaList HttpServer\\Handlers\\GenreHandler.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAUwH0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:18:17.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
