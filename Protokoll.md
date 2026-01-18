@@ -55,21 +55,9 @@ Es wurden **20 Unit Tests** mit dem NUnit-Framework implementiert.
 
 **Abdeckung:** Die Tests decken die kritische Business-Logik ab (Validation, Calculation), während die reine Datenpersistenz durch Integrationstests (Postman) verifiziert wurde.
 
-## 6. Zeitaufwand (Geschätzt)
-
-| Task | Zeit (Std.) |
-| :--- | :--- |
-| Server Setup & Basic Routing | 5h |
-| Datenbank & Docker | 3h |
-| User Auth (Login/Register) | 4h |
-| Media & Rating CRUD | 5h |
-| Business Logik (Moderation, Unique Check) | 4h |
-| Unit Testing & Refactoring | 5h |
-| **Gesamt** | **26h** |
-
-## 7. Lessons Learned
+## 6. Lessons Learned
 *   **Testing Legacy Code:** Es ist schwierig, Unit Tests nachträglich in eine Architektur einzubauen, die statische Datenbankzugriffe nutzt. Das frühzeitige Nutzen von Interfaces (Dependency Injection) hätte Zeit gespart.
 *   **SQL Injection Prevention:** Die konsequente Verwendung von parametrisierten Queries (`@parameter`) war entscheidend für die Sicherheit der Anwendung.
 
-## 8. GitHub Repository
-[Link zum Repository einfügen]
+## 7. GitHub Repository
+https://github.com/ItisMaci/MRP_FINAL.git
